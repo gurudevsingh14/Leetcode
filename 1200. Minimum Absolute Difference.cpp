@@ -4,6 +4,7 @@ public:
         sort(a.begin(),a.end());
         int n=a.size();
         int diff=INT_MAX;
+        
         vector<vector<int>>ans;
         for(int i=1;i<n;i++)
         {   
